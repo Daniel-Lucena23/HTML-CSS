@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos, ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="Imagens/P.jpg" type="image/jpg">
+        <source media="(max-width: 1200px)" srcset="Imagens/M.jpg" type="image/jpg">
+        <img src="Imagens/G.jpg" alt="G"> 
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/As-You-Fade-Away-NEFFEX.mp3 " type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue visualizar o aúdio, clique <a href="midia/As-You-Fade-Away-NEFFEX.mp3">aqui</a> para fazer o download.</p>
+    </audio>
+
+    <h1>Reproduzindo vídeo</h1>
+    <p>Vamos aprender a reproduzir vídeos em HTML5.</p>
+
+    <video preload="metadata" controls loop width="200" poster="Imagens/html-logo 225x225.png">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.webm" type="video/webm">
+        <p>Seu computador não tem compatibilidade com vídeos</p>
+    </video>
+
+    <p>Inserindo vídeos do Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QK7ue908ArE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

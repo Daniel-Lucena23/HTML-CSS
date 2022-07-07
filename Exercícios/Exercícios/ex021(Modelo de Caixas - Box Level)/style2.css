@@ -1,0 +1,64 @@
+@charset "UTF8";
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  lightgray;
+    margin: 0em;
+}
+
+nav{
+    text-align: left;
+    background-color: rgb(148, 148, 148);
+    padding: 0.3em;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(255, 213, 74);
+    margin-right: 00.5em;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: lightblue;
+    padding: 1em;
+    text-align: center;
+    margin: 0.5em;
+}
+
+
+main{
+    background-color: rgb(243, 252, 252);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 0.6em;
+}
+
+article{
+    background-color: rgb(191, 212, 224);
+    margin: 2em;
+    border-radius: 00.6em;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+article > aside {
+    background-color: rgb(196, 196, 196);
+    border-radius: 0em 0em 0.6em 0.6em;
+    padding: 0.1em 0.1em 0.1em 0.4em;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    padding: 1em;
+    margin: 0em;
+}
+
+footer > p{
+    margin: 0em;
+}

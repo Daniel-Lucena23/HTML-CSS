@@ -1,0 +1,35 @@
+@charset "UTF8";
+
+body{
+    background-color: #E6F5F5;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: #1D3557;
+}
+
+h1{
+    color: #E63946;
+}
+
+.básico{
+    color: #fcc838;
+    font-weight: bold;
+}
+
+.intermediário{
+    color: #7cd144;
+    font-weight: bold;
+}
+
+.avançado{
+    color: #5dc4ff;
+    font-weight: bold;
+}
+
+.destaque{
+    font-weight: bold;
+}
