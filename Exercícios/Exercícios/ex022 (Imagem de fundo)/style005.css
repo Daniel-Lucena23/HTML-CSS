@@ -7,11 +7,20 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
+    /* Shothand Background
+        color > image > position > / > size > repeat > attachment
+        Ex.:
+        background: black url(Imagens/wallpaper002.jpg) center center / cover no-repeat fixed;
+    */
+
+    background: black url(Imagens/wallpaper002.jpg) center center / cover no-repeat fixed;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
