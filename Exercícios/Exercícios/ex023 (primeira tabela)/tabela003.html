@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style003.css">
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cód.</th>
+                <th>Produto</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="indice">1</td>
+                <td class="texto">Bola</td>
+                <td class="valor">15,00</td>
+            </tr>
+            <tr>
+                <td class="indice">2</td>
+                <td class="texto">Bicicleta</td>
+                <td class="valor">350,50</td>
+            </tr>
+            <tr>
+                <td class="indice">3</td>
+                <td class="texto">Patins</td>
+                <td class="valor">99,99</td>
+            </tr>
+            <tr>
+                <td class="indice">4</td>
+                <td class="texto">Skate</td>
+                <td class="valor">87,70</td>
+            </tr>
+            <tr>
+                <td class="indice">5</td>
+                <td class="texto">Boneca</td>
+                <td class="valor">50,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- colspan = Mesclar coluna, Rowspan = linha -->
+                <th colspan="2" class="total">Total</th> 
+                <td class="valor">603,19</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
