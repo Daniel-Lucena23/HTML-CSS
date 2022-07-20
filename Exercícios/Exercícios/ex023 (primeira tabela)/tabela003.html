@@ -13,9 +13,11 @@
     <table>
         <thead>
             <tr>
-                <th>Cód.</th>
-                <th>Produto</th>
-                <th>Valor</th>
+                <!-- scope="col" p/ título de coluna, ="row" p/ título de linha
+                    ="colgroup" p/ títulos de colunaS mescladaS e ="rowgroup" p/ títulos de linhaS mescladaS -->
+                <th scope="col">Cód.</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Valor</th>
             </tr>
         </thead>
         <tbody>
@@ -48,7 +50,7 @@
         <tfoot>
             <tr>
                 <!-- colspan = Mesclar coluna, Rowspan = linha -->
-                <th colspan="2" class="total">Total</th> 
+                <th colspan="2" class="total" scope="row">Total</th> 
                 <td class="valor">603,19</td>
             </tr>
         </tfoot>
