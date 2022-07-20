@@ -15,11 +15,18 @@
 <body>
     <h1>Testando o uso de iframes</h1>
     <p>Acessando o site do Curso em vídeo para aprender a programar</p>
-    <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+    <iframe src="https://www.cursoemvideo.com" frameborder="0">
+        <!-- Caso não for compatível com iframe irá aparecer o link -->
+        <a href="https://www.cursoemvideo.com">cursoemvideo</a>
+    </iframe>
 
     <!-- Alguns sites são protegidos contra iframes, como o do Google -->
     <p>O Site do Google é muito legal:</p>
     <iframe src="http://www.google.com.br" frameborder="0"></iframe>
     
+    <p>O Repositório do Guanabara é legal também:</p>
+    <iframe src="https://gustavoguanabara.github.io" frameborder="0">
+        <a href="https://www.cursoemvideo.com">Repositório no Github</a>
+    </iframe>
 </body>
 </html>
