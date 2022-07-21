@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+
+    <style>
+
+        iframe {
+            width: 400px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium dolorum numquam! Amet, odio harum? Quam, ipsum labore commodi enim inventore facere magnam reiciendis quia nemo odio a quod explicabo!</p>
+
+    <!-- 
+        sandbox="sandbox" p/ que o iframe bloqueie qualquer ação maliciosa do site exibido (no exemplo bloqueia o envio de dados)
+        sandbox="allow-same-origin allow-forms allow-scripts" permite o envie de dados apenas de site da mesma origem, de formulários e de scripts
+        referrerpolicy="no-referrer" p/ não capturar nenhum dado (cockies...)
+    -->
+    <iframe src="paginas extras/pagina004.html" frameborder="0" sandbox="sandbox" referrerpolicy="no-referrer"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere laudantium minus illo maiores voluptatibus sint at enim optio commodi, consectetur quibusdam amet magni necessitatibus quisquam velit fugiat accusantium soluta?</p>
+</body>
+</html>
