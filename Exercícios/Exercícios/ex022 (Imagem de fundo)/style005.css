@@ -6,8 +6,8 @@ body {
     background-image: url(Imagens/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover; /* Cobrir a tela inteira */
+    background-attachment: fixed; /* Fica fixo no fundo */
 
     /* Shothand Background
         color > image > position > / > size > repeat > attachment
