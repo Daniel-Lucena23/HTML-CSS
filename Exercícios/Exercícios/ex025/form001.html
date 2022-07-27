@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!-- Method="post" para não aparecer os dados do form na URL, por padrão o método é "get" -->
+    <form action="cadastro.php" method="post">
+        <!-- no label colocar o id, para linkar o texto c/ o form -->
+        <p><label for="iNome">Nome:</label> 
+            <input type="text" name="Nome" id="iNome">
+        </p>
+        <p><label for="iSobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="iSobrenome">
+        </p> 
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+</body>
+</html>
